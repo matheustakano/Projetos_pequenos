@@ -1,10 +1,6 @@
-base = input("Entre com a Base do Retângulo: ")
-base_str = int(base)
-print(type(base_str))
+base = int(input("Entre com a Base do Retângulo: "))
 
-h = input("Entre com a Altura do Retângulo: ")
-h_str = int(h)
-print(type(h_str))
+h = int(input("Entre com a Altura do Retângulo: "))
 
-A = h_str * base_str
+A = h * base
 print("Seu retângulo tem uma Área de:",A,"cm²")

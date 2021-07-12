@@ -1,8 +1,7 @@
 FÓRMULA: (0 °C × 9/5) + 32 = 32 °F
 
-grauCelsius = input("Entre com a temperatura em Celsius: ")
-grauCelsius_str = int(grauCelsius)
+grauCelsius = int(input("Entre com a temperatura em Celsius: "))
 
-conversao = (grauCelsius_str * 9 / 5) + 32
+conversao = (grauCelsius * 9 / 5) + 32
 print(conversao)
 

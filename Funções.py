@@ -18,7 +18,7 @@ def numero_binomial():
         b = a * b
     print(b)
 
-    print("O resultado da divisão com o denominador:", f // b * (f - b))
+    print("O resultado é:", f // b * (f - b))
 
     
 
